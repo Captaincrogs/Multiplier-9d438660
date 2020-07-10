@@ -1,11 +1,9 @@
-#!/usr/bin/env php
 <?php
+echo "ik ga twee getallen met elkaar vermenigvuldigen" . PHP_EOL;
 
-$eerste_getal = readline("Wat is jouw eerste nummer?: ");
-$tweede_getal = readline ("Wat is jou tweede nummer?: ");
-$sum3 = (int)$eerste_getal * (int)$tweede_getal;
+$getal_1 = readline("wat is je eerste getal?: ");
+$getal_2 = readline("wat is je tweede getal?: ");
 
-
-echo "Het antwoord is: $sum3 ($eerste_getal * $tweede_getal)";
-    
-?>
+$som = (int) $getal_1 * (int) $getal_2;
+$tekst = "de twee getallen samen zijn: ";
+echo ($tekst . $som);
